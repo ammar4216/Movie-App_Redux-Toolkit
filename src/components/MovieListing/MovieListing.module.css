@@ -1,0 +1,9 @@
+.movieListing {
+  margin: 20px 0px;
+}
+
+.movieListing h2 {
+  color: goldenrod;
+  margin-bottom: 10px;
+  font-weight: 400;
+}

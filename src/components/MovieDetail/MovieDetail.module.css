@@ -1,0 +1,59 @@
+.movieSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px 0px;
+  color: white;
+  font-weight: 400;
+}
+
+.movieRating {
+  padding-left: 3px;
+  margin-top: 20px;
+  color: rgb(120, 204, 148);
+  display: flex;
+}
+
+.movieRating span {
+  margin-right: 20px;
+}
+
+.movieTitle {
+  font-size: 45px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.moviePlot {
+  padding-left: 3px;
+  margin-top: 30px;
+  line-height: 1.8rem;
+}
+
+.moviePlot h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  letter-spacing: 3px;
+}
+
+.moviePlot p {
+  max-width: 50rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.movieInfo {
+  padding-left: 3px;
+  margin-top: 20px;
+}
+.movieInfo > div span:first-child {
+  padding: 15px 0px;
+  font-weight: 600;
+  width: 100px;
+  display: inline-block;
+  color: white;
+}
+
+.movieInfo > div span {
+  color: rgb(120, 204, 148);
+}
